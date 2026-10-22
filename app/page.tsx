@@ -161,7 +161,7 @@ function SectionHeading({ kicker, title }: { kicker: string; title: string }) {
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      {/* ── Hero ────────────────────────────────────── */}
+      {/* ── Hero ─────────────────────────────────────────────── */}
       <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden">
         {SHOW_HERO_BG && (
           <Image
@@ -209,7 +209,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Projects ────────────────────────────────── */}
+      {/* ── Projects ─────────────────────────────────────────── */}
       <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
         <SectionHeading kicker="Selected Work" title="Projects" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -261,7 +261,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Hobbies ─────────────────────────────────── */}
+      {/* ── Hobbies ──────────────────────────────────────────── */}
       <section id="hobbies" className="border-y border-white/10 bg-neutral-950/60">
         <div className="mx-auto max-w-6xl px-6 py-24">
           <SectionHeading kicker="Off The Clock" title="Hobbies" />
@@ -283,7 +283,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Media: YouTube + Spotify ─────────────────────── */}
+      {/* ── Media: YouTube + Spotify ─────────────────────────── */}
       <section id="media" className="mx-auto max-w-6xl px-6 py-24">
         <SectionHeading kicker="Watch & Listen" title="Media" />
         <div className="grid gap-8 lg:grid-cols-2">
@@ -318,7 +318,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Gallery ─────────────────────────────────── */}
+      {/* ── Gallery ──────────────────────────────────────────── */}
       <section id="gallery" className="border-y border-white/10 bg-neutral-950/60">
         <div className="mx-auto max-w-6xl px-6 py-24">
           <SectionHeading kicker="Visuals" title="Gallery" />
@@ -367,7 +367,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Social ──────────────────────────────────── */}
+      {/* ── Social ───────────────────────────────────────────── */}
       <section id="social" className="mx-auto max-w-6xl px-6 py-24">
         <SectionHeading kicker="Connect" title="Find Me Online" />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -394,7 +394,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Footer ──────────────────────────────────── */}
+      {/* ── Footer ───────────────────────────────────────────── */}
       <footer className="border-t border-white/10 bg-neutral-950">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-12 sm:flex-row sm:justify-between">
           <p className="text-lg font-bold tracking-tight">

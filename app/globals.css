@@ -126,7 +126,7 @@
   }
 }
 
-/* ── Hero background effects ───────────────────────── */
+/* ── Hero background effects ─────────────────────────────── */
 @keyframes star-twinkle {
   0%,
   100% {
@@ -221,7 +221,7 @@
   }
 }
 
-/* ── Hero sprite loop ────────────────────────────────
+/* ── Hero sprite loop ──────────────────────────────────────
    14s shared timeline:
    0–20%   sprite slides in from the right, stops right of center
    22–34%  figure pops up bottom-left

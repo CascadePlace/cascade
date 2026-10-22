@@ -42,3 +42,7 @@ next-env.d.ts
 
 # ai-ide
 .aiide/
+
+# lockfiles are intentionally untracked: the Pages CI uses `npm install`
+bun.lock
+package-lock.json
